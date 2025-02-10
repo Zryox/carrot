@@ -1,0 +1,189 @@
+:root {
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+
+    --ss-transparent: #00000000;
+    --ss-black: #000;
+    --ss-adblocker-text: #003449;
+    --ss-white: #FFFFFF;
+    --ss-offwhite: #FFF3E4;
+    --ss-yellow0:#F7FFC1;
+    --ss-yellow: #FAF179;
+    --ss-yolk0: #ff7e00;
+    --ss-yolk: #d77600;
+    --ss-yolk2: #743a00;
+    --ss-red0: #e2c890;
+    --ss-red: #d19853;
+    --ss-red2: #805719;
+    --ss-egg-org: #EE2524;
+    --ss-red-bright: #EF3C39;
+    --ss-pink: #EC008C;
+    --ss-pink1: #b9006e;
+    --ss-pink-light: #ff3aaf;
+    --ss-pink-dark: #a7098c;
+    --ss-brown: #000000;
+    --ss-blue00: #000000;
+    --ss-blue0: #000000;
+    --ss-blue1: #d19300;
+    --ss-blue2: #ff8a00;
+    --ss-blue3: #000000;
+    --ss-blue4: #ff8a00;
+    --ss-blue5: #fff200;
+    --ss-blue6: #cc5d00;
+    --ss-blue7: #000000;
+    --ss-blue8: #ff9400;
+    --ss-green0: #dd9e87;
+    --ss-green1: #ba5513;
+    --ss-green2: #632504;
+    --ss-green-login: #13ba65;
+    --ss-orange1: #F79520;
+    --ss-vip-blue: #0E7FFF;
+
+    /* Redesign colors */
+    --ss-orange: #F7941D;
+    --ss-brown-2: #894B00;
+    --ss-vip: #FFF000;
+    --ss-red-btn-fill: #e96016;
+    --ss-red-btn-outline: #881A1A;
+
+    --ss-limited: #ffb3e8;
+    --ss-limited-txt: #ff1bba;
+    --ss-premium: #87ec4a;
+    --ss-premium-txt: #204908;
+    --ss-vip: #fff000;
+    --ss-vip-txt: #676000;
+
+    --ss-darkoverlay: rgba(0, 0, 0, 0.6);
+    --ss-darkoverlay2: rgba(0, 0, 0, 0.2);
+    --ss-lightoverlay: url('https://media.discordapp.net/attachments/1316207103110676483/1338635640828596365/iu.png?ex=67abcd17&is=67aa7b97&hm=44837f30bbf2c7da0949fada1b57b47382012d218e1006dd6860f103f831ebfd&=&format=webp&quality=lossless');
+    --ss-lightbackground: linear-gradient(var(--ss-blue1), var(--ss-blue2));
+    --ss-blueblend1: linear-gradient(#349ec1, #5fbad8);
+    --ss-scrollmask1: linear-gradient(var(--ss-blue2clear), var(--ss-blue00));
+    --ss-scrollmask2: linear-gradient(rgba(56, 158, 192, 0), #389EC0);
+    --ss-fieldbg: linear-gradient(#91CADB, #ffffff, #ffffff, #ffffff, #ffffff);
+    --ss-nugSecs: 3600s;
+    --ss-me-player-bg: rgba(247,149,32,.8);
+    --ss-box-shadow-1: .16em .16em 0 rgb(204 93 0 / 50%);
+}
+
+/* ------------- Home ------------- */
+.main-menu-button svg path:nth-child(1) {
+    fill: #5F1201 !important;
+}
+
+#ico-checkmark path {
+    content: url(https://raw.githubusercontent.com/Zryox/carrot/main/idlecrrt.gif);
+}
+
+.player-challenges-container {
+    width: X%;
+    background: url('https://raw.githubusercontent.com/Zryox/carrot/main/bluredbg%232.png');
+}
+
+.player-challenge-single-action .bevel_pink {
+    border-color: #000000;
+}
+
+.common-box-shadow {
+    box-shadow: inset -3em -1em 0 rgb(204 93 0 / 0%);
+}
+
+.egg_icon {
+    transform: translate(-1.3px, -.7px);
+    content: url(https://raw.githubusercontent.com/Zryox/carrot/main/idlecrrt.gif);
+    scale: 4;
+    margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
+}
+
+.gap-sm {
+    gap: calc(var(--ss-space-lg) / 2.2);
+}
+
+.bevel_blue_light {
+    box-shadow: var(--ss-box-shadow-1), var(--ss-btn-dark-bevel) #792401, var(--ss-btn-light-bevel) #d9967a;
+}
+
+.btn-selected, .btn_blue_light {
+    background-color: #ba5616;
+    border-color: #200003;
+}
+
+.text_blue8 {
+    color: #000000 !important;
+}
+
+.bevel_green {
+    box-shadow: var(--ss-box-shadow-1), var(--ss-btn-dark-bevel) #641600, var(--ss-btn-light-bevel) var(--ss-green0);
+}
+
+.bevel_blue {
+    box-shadow: var(--ss-box-shadow-1), var(--ss-btn-dark-bevel) #510900, var(--ss-btn-light-bevel) #ce5d01;
+}
+
+.popup_window {
+    background-image: url(https://raw.githubusercontent.com/Zryox/carrot/main/bluredbg%232.png);
+    border: var(--ss-common-border-width) solid #000000;
+}
+
+#equip_grid .grid-item:not(.morestuff) {
+    background: radial-gradient(#e87417, #6b160c);
+    border: var(--ss-common-border-width) solid var(--ss-blue5);
+}
+
+.ss_button {
+    border-color: #5f1201;
+}
+
+.bg_blue3 {
+    background-color: #200003 !important;
+}
+
+.player-challenge-single-reward img {
+    transform: translate(-1.6px, -.6px);
+    scale: 7.8;
+    content: url(https://raw.githubusercontent.com/Zryox/carrot/main/idlecrrt.gif);
+}
+
+#equip_grid .highlight {
+    background: linear-gradient(#200003, #5f1201) !important;
+}
+
+#vipEnded .bevel_green, .btn-dark-bevel.bevel_green {
+    box-shadow: var(--ss-btn-dark-shadow), var(--ss-btn-dark-bevel) #d56922d9;
+}
+
+#reticleDot {
+    background: #000000 !important;
+}
+
+.crosshair.normal {
+    border: #000000 !important;
+    background: #ff8e0d !important;
+}
+
+.shotReticle.border.normal {
+    border-color: #000000 !important;
+    border-left: solid transparent !important;
+    border-right: solid transparent !important;
+}
+
+.shotReticle.border.powerful {
+    border-color: #ffffff !important;
+    border-left: solid transparent !important;
+    border-right: solid transparent !important;
+}
+
+.shotReticle.fill.normal {
+    border-color: #000000 !important;
+    border-left: solid transparent !important;
+    border-right: solid transparent !important;
+}
+
+.weapon_img {
+    border: var(--ss-common-border-width) solid #320b0f;
+}
+
+.free-games-logo, .free-games-title {
+    display: none;
+}
